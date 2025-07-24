@@ -1,19 +1,19 @@
 @import url("/css/addons/unraid/login-page/alien/alien-base.css");
 :root {
     --main-bg: radial-gradient(ellipse at center,rgba(0, 255, 119, 0.1) 0,rgba(0,255,119,0) 100%) center center/cover no-repeat fixed, 
-    url(/css/addons/unraid/login-page/alien/wallpaper/hallway2.jpg) center center/cover no-repeat fixed;
-    --logo: url(/css/addons/unraid/login-page/alien/logo/nostromogreen2.png) center no-repeat;
-    --text-color: #37f592;
-    --input-color: #37f592;
-    --link-color: #37f592;
-    --link-color-hover: #68ffff;
-    --case-color: #37f592;
-    --button-text-color: #37f592;
-    --button-text-color-hover: #000;
-    --button-color: #37f592;
-    --button-color2: #0C833D;
-    --button-color-hover: #68ffff;
-    --button-color2-hover: #68ffff;
+    url(https://www.shutterstock.com/image-illustration/green-numbers-on-black-background-260nw-2062776530.jpg) center center/cover no-repeat fixed;
+    --logo: url(/mnt/user/data/media/pictures/icons/plugin/UN-logotype-gradient.svg) center no-repeat;
+    --text-color: var(--text-primary);
+    --input-color: var(--text-primary);
+    --link-color: var(--text-link);
+    --link-color-hover: var(--text-link-hover);
+    --case-color: var(--main-color);
+    --button-text-color: var(--button_text);
+    --button-text-color-hover: var(--button_text_hover);
+    --button-color: var(--gradient_left);
+    --button-color2: var(--gradient_right);
+    --button-color-hover: var(--gradient_left);
+    --button-color2-hover: var(--gradient_right);
     --input-font: 'Share Tech Mono', monospace;
     --text-font: 'Share Tech Mono', monospace;   /*'VT323', 'Share Tech Mono'*/
     --div-background-color-15: rgba(0, 255, 111, 0.03);
